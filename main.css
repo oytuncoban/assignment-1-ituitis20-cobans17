@@ -23,8 +23,7 @@ body {
 .nav-button {
 	margin: auto;
 	width: 80%;
-	font-family: "Purisa";
-	font-size: 16pt;
+	font-family: 'Quicksand', sans-serif;	font-size: 16pt;
 	font-weight: 600;
 	color: #e5e1ff;
 	background-color: #01020f;
@@ -45,7 +44,7 @@ body {
   
 	margin: auto;
 	width: 80%;
-	font-family: "Purisa";
+	font-family: 'Quicksand', sans-serif;
 	font-size: 16pt;
 	font-weight: 600;
 	background-color: #e6f79cc4;
