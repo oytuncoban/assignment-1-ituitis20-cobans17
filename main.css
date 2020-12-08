@@ -157,6 +157,17 @@ p {
 	display: inline-block;
 }
 
+.disclaimer {
+	background-color: black;
+	color:rgb(255, 0, 0);
+	font-family: "Quicksand";
+	padding: 5px 10px 5px 10px;
+	height: 10px;
+	text-decoration: none;
+	display: inline-block;
+	margin: auto;
+}
+
 .github {
 	background-color: black;
 	color:white;
@@ -197,7 +208,7 @@ p {
 }
 
 #alumnies {
-	border: 1px solid #58c5bac7);
+	border: 1px solid #58c5bac7;
 	border-radius: 20px;
 	border-collapse: separate;
 	border-spacing: 0px;
