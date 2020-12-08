@@ -1,5 +1,5 @@
 body {
-	background-color: #45B8AC;
+	background-color: #58c5bac7; /*check color after content */
 	margin: 0px;
 	padding: 0px 0px 100px 0px;
 	min-height: 100%;
@@ -9,10 +9,63 @@ body {
 .header {
     font-family: "Pattaya";
 	text-align: center;
+	font-size: 48px;
 	position: relative;
 	width: 100%;
-	height: 25%;
+	height: 500px;
 
+}
+
+.header:before{
+	content:'';
+	background-color: white;
+	background-image: url("images/school.jpg");
+	background-size: 100% 100%;
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 500px;
+	background-repeat: no-repeat;
+	opacity: 0.7;
+	z-index: -1;
+	
+}
+
+
+h1,h2,p{
+	font-family: 'Roboto';
+}
+
+hr {
+	border-color: black;
+}
+
+h1 {
+	color: black;
+	padding: 10px;
+	margin: auto;
+	display: block;
+	text-align: center;
+	font-family: sans-serif;
+	font-weight: 800;
+}
+
+
+h2 {
+	color: black;
+	margin-left: 20px;
+	font-family: sans-serif;
+	font-weight: 600;
+}
+
+
+p {
+	padding: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 20px;
 }
 
 
@@ -76,7 +129,14 @@ body {
 	display: block;
 	float: initial;
 }
+
 .footer-object {
+	
+	height: 10px;
+	display: inline-block;
+}
+
+.linkedin {
 	background-color: black;
 	color:white;
 	font-family: "Pattaya";
@@ -87,14 +147,75 @@ body {
 
 }
 
-.footer-object2 {
+.mail {
+	background-color: black;
+	color:white;
+	font-family: "Pattaya";
+	padding: 5px 10px 5px 10px;
+	height: 10px;
+	text-decoration: none;
+	display: inline-block;
+}
+
+.github {
 	background-color: black;
 	color:white;
 	font-family: 'Quicksand', sans-serif;
 	font-weight: 300;
 	padding: 5px 10px 5px 10px;
 	text-decoration: none;
-	float: right;
-
 	display: inline-block;
+}
+
+.footer-img {
+	height: 15px;
+	bottom: 0;
+	filter: invert(1);
+}
+
+.school-list {
+	margin: auto;
+	width: 60%;
+	background-color: rgb(108, 188, 219);
+	border: 5px solid #357771c7;
+	padding: 10px;
+	font-size: 16px;
+}
+
+.alumni-table {
+	padding-top: 30px;
+}
+
+#alumnies th,td, tr {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	border-collapse: separate;
+	border-spacing: 0px;
+	border: 1px solid #58c5bac7;
+	padding: 12px;
+	text-align: center;
+	color: rgb(255, 255, 255);
+}
+
+#alumnies {
+	border: 1px solid #58c5bac7);
+	border-radius: 20px;
+	border-collapse: separate;
+	border-spacing: 0px;
+	border-color: #f1f1f1;
+	margin-right:auto;
+	margin-left:auto;
+	margin-top:40px;
+	margin-bottom:100px;
+}
+
+#alumnies th {
+	background-color: #357771c7;
+}
+
+#alumnies tr:nth-child(even) {
+	background-color: #183634c7;
+}
+
+#alumnies tr:nth-child(odd) {
+	background-color: #357771c7;
 }
