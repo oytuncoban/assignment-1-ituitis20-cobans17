@@ -248,4 +248,19 @@ p {
 	content: "";
 	clear: both;
 	display: table;
-  }
+}
+
+.polaroid {
+	margin: 0 auto;
+	display: block;
+	width: 100%;
+	background-color: rgb(182, 182, 182);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.400), 0 6px 20px 0 rgba(0, 0, 0, 0.400);
+	margin-bottom: 20px;
+}
+
+.description {
+	text-align: center;
+	padding: 15px 20px;
+	display: block;
+}
